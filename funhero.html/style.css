@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    background: rgb(201, 201, 201);
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+.item{ padding: 10px;
+
+}
+.banner-container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(pexels-photo-7984727.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.btn{
+    padding: 15px 10px;
+}
+.btn-disc{
+    background: red;
+    border: none;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.can{
+    font-size: 50px;
+}
+.dg{
+    color: rgb(255, 0, 0);
+}
+.service-container{
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(OIP.webp);
+    color: rgb(255, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.1));
+    
+
+}
+.description{
+    width: 50%;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    
+}
+.author-profile{
+    padding: 20px;
+    display: flex;
+    border-right: 4px solid red;
+   margin-right: 20px;
+}
+.hasan{
+    border-radius: 100px;
+}
+.box-img{
+    width: 100px;
+}
+.box{
+    box-shadow:8px 16px 32px grey  ;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    background: white;
+
+}
+.box-container{
+    display: flex;
+    margin: 20px;
+    background: wheat;
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.icon{
+    width: 60px;
+}
+.call-icon{
+    display: flex;
+    
+}
+.appoinment-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 35px;
+    border-radius: 10px;
+}
+.bng{
+    color: antiquewhite;
+}
